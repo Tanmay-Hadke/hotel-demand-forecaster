@@ -1,0 +1,32 @@
+{
+  "os":  "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "python":  "CPython 3.14.6",
+  "startedAt":  "2026-07-17T05:45:47.184357Z",
+  "program":  "-m src.evaluate",
+  "email":  "tanmayhadke426@gmail.com",
+  "root":  "/Users/tanmay/Desktop/Projects/hotel-demand-forecaster",
+  "host":  "Tanmays-MacBook-Air.local",
+  "executable":  "/Users/tanmay/Desktop/Projects/hotel-demand-forecaster/.venv/bin/python",
+  "cpu_count":  10,
+  "cpu_count_logical":  10,
+  "disk":  {
+    "/":  {
+      "total":  "494332366848",
+      "used":  "158109810688"
+    }
+  },
+  "memory":  {
+    "total":  "17179869184"
+  },
+  "apple":  {
+    "name":  "Apple M5",
+    "ecpuCores":  6,
+    "pcpuCores":  4,
+    "gpuCores":  8,
+    "memoryGb":  16,
+    "swapTotalBytes":  "1073741824",
+    "ramTotalBytes":  "17179869184",
+    "macModel":  "Mac17,3"
+  },
+  "writerId":  "c4so3n5ykilrgtk5h0oiyibjrroazarv"
+}

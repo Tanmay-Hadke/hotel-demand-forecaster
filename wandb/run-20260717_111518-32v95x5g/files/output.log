@@ -1,0 +1,74 @@
+Loading data...
+Starting training on cpu...
+Epoch 1/50 | Loss: 1.0038
+--> Saved new best model with loss 1.0038
+Epoch 2/50 | Loss: 0.9135
+--> Saved new best model with loss 0.9135
+Epoch 3/50 | Loss: 0.8478
+--> Saved new best model with loss 0.8478
+Epoch 4/50 | Loss: 0.8465
+--> Saved new best model with loss 0.8465
+Epoch 5/50 | Loss: 0.8434
+--> Saved new best model with loss 0.8434
+Epoch 6/50 | Loss: 0.8459
+Epoch 7/50 | Loss: 0.8502
+Epoch 8/50 | Loss: 0.8325
+--> Saved new best model with loss 0.8325
+Epoch 9/50 | Loss: 0.8243
+--> Saved new best model with loss 0.8243
+Epoch 10/50 | Loss: 0.8233
+--> Saved new best model with loss 0.8233
+Epoch 11/50 | Loss: 0.8287
+Epoch 12/50 | Loss: 0.8229
+--> Saved new best model with loss 0.8229
+Epoch 13/50 | Loss: 0.8153
+--> Saved new best model with loss 0.8153
+Epoch 14/50 | Loss: 0.8101
+--> Saved new best model with loss 0.8101
+Epoch 15/50 | Loss: 0.8314
+Epoch 16/50 | Loss: 0.8289
+Epoch 17/50 | Loss: 0.8278
+Epoch 18/50 | Loss: 0.8166
+Epoch 19/50 | Loss: 0.8043
+--> Saved new best model with loss 0.8043
+Epoch 20/50 | Loss: 0.8010
+--> Saved new best model with loss 0.8010
+Epoch 21/50 | Loss: 0.8179
+Epoch 22/50 | Loss: 0.8100
+Epoch 23/50 | Loss: 0.8037
+Epoch 24/50 | Loss: 0.7998
+--> Saved new best model with loss 0.7998
+Epoch 25/50 | Loss: 0.7977
+--> Saved new best model with loss 0.7977
+Epoch 26/50 | Loss: 0.8019
+Epoch 27/50 | Loss: 0.8034
+Epoch 28/50 | Loss: 0.8050
+Epoch 29/50 | Loss: 0.7990
+Epoch 30/50 | Loss: 0.7895
+--> Saved new best model with loss 0.7895
+Epoch 31/50 | Loss: 0.7988
+Epoch 32/50 | Loss: 0.7951
+Epoch 33/50 | Loss: 0.8012
+Epoch 34/50 | Loss: 0.7928
+Epoch 35/50 | Loss: 0.7949
+Epoch 36/50 | Loss: 0.7938
+Epoch 37/50 | Loss: 0.7893
+--> Saved new best model with loss 0.7893
+Epoch 38/50 | Loss: 0.8048
+Epoch 39/50 | Loss: 0.7922
+Epoch 40/50 | Loss: 0.7929
+Epoch 41/50 | Loss: 0.7888
+--> Saved new best model with loss 0.7888
+Epoch 42/50 | Loss: 0.7886
+--> Saved new best model with loss 0.7886
+Epoch 43/50 | Loss: 0.7834
+--> Saved new best model with loss 0.7834
+Epoch 44/50 | Loss: 0.7985
+Epoch 45/50 | Loss: 0.7824
+--> Saved new best model with loss 0.7824
+Epoch 46/50 | Loss: 0.7857
+Epoch 47/50 | Loss: 0.7829
+Epoch 48/50 | Loss: 0.7875
+Epoch 49/50 | Loss: 0.7851
+Epoch 50/50 | Loss: 0.7818
+--> Saved new best model with loss 0.7818

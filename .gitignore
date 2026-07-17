@@ -1,0 +1,13 @@
+# Environments
+venv/
+.env
+__pycache__/
+*.pyc
+
+# Data and Models (Keep these local!)
+data/
+models/
+*.png
+
+# OS generated files
+.DS_Store

@@ -31,26 +31,46 @@ def prep_data(csv_path):
     )
     df = df.sort_values('arrival_date')
     
-    daily_demand = df.groupby('arrival_date').size().reset_index(name='total_rooms')
-    
     # --- FEATURE ENGINEERING ---
+    # Aggregate daily statistics instead of just counting rooms
+    daily_stats = df.groupby('arrival_date').agg(
+        total_rooms=('arrival_date', 'size'),
+        avg_lead_time=('lead_time', 'mean'),
+        avg_adr=('adr', 'mean'),
+        cancellation_rate=('is_canceled', 'mean')
+    ).reset_index()
+    
     # Extract temporal features
-    daily_demand['day_of_week'] = daily_demand['arrival_date'].dt.dayofweek # 0-6
-    daily_demand['month'] = daily_demand['arrival_date'].dt.month # 1-12
+    daily_stats['day_of_week'] = daily_stats['arrival_date'].dt.dayofweek # 0-6
+    daily_stats['month'] = daily_stats['arrival_date'].dt.month # 1-12
     
-    # Normalize target variable
-    mean_rooms = daily_demand['total_rooms'].mean()
-    std_rooms = daily_demand['total_rooms'].std()
-    daily_demand['normalized_rooms'] = (daily_demand['total_rooms'] - mean_rooms) / std_rooms
+    # Normalize the target variable (Rooms)
+    mean_rooms = daily_stats['total_rooms'].mean()
+    std_rooms = daily_stats['total_rooms'].std()
+    daily_stats['normalized_rooms'] = (daily_stats['total_rooms'] - mean_rooms) / std_rooms
     
-    # Min-Max scale temporal features to roughly [-1, 1] for neural network stability
-    daily_demand['day_of_week'] = (daily_demand['day_of_week'] - 3.0) / 3.0
-    daily_demand['month'] = (daily_demand['month'] - 6.5) / 5.5
+    # Scale temporal features to roughly [-1, 1]
+    daily_stats['day_of_week'] = (daily_stats['day_of_week'] - 3.0) / 3.0
+    daily_stats['month'] = (daily_stats['month'] - 6.5) / 5.5
     
+    # Z-score normalize the new continuous features
+    for col in ['avg_lead_time', 'avg_adr']:
+        mean_val = daily_stats[col].mean()
+        std_val = daily_stats[col].std()
+        daily_stats[col] = (daily_stats[col] - mean_val) / std_val
+        
     normalization_stats = {'mean': mean_rooms, 'std': std_rooms}
     
-    # Stack into a multivariate array: shape (N, 3)
-    features = daily_demand[['normalized_rooms', 'day_of_week', 'month']].values
+    # Stack into a multivariate array: shape (N, 6)
+    # Order matters: target variable MUST remain at index 0
+    features = daily_stats[[
+        'normalized_rooms', 
+        'day_of_week', 
+        'month', 
+        'avg_lead_time', 
+        'avg_adr', 
+        'cancellation_rate'
+    ]].values
     
     return features, normalization_stats
 

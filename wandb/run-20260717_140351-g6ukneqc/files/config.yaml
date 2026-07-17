@@ -1,0 +1,70 @@
+_wandb:
+    value:
+        cli_version: 0.28.1
+        e:
+            unohg819m314u2vwd4lsabpcspvwastk:
+                apple:
+                    ecpuCores: 6
+                    gpuCores: 8
+                    macModel: Mac17,3
+                    memoryGb: 16
+                    name: Apple M5
+                    pcpuCores: 4
+                    ramTotalBytes: "17179869184"
+                    swapTotalBytes: "4294967296"
+                cpu_count: 10
+                cpu_count_logical: 10
+                disk:
+                    /:
+                        total: "494332366848"
+                        used: "165415661568"
+                email: tanmayhadke426@gmail.com
+                executable: /opt/anaconda3/bin/python
+                git:
+                    commit: b669318cb0e99e23f3e5aa7018644c6a843304da
+                    remote: https://github.com/Tanmay-Hadke/hotel-demand-forecaster.git
+                host: Tanmays-MacBook-Air.local
+                memory:
+                    total: "17179869184"
+                os: macOS-26.5.2-arm64-arm-64bit-Mach-O
+                program: -m src.train
+                python: CPython 3.13.9
+                root: /Users/tanmay/Desktop/Projects/hotel-demand-forecaster/hotel-demand-forecaster
+                startedAt: "2026-07-17T08:33:51.980002Z"
+                writerId: unohg819m314u2vwd4lsabpcspvwastk
+        m: []
+        python_version: 3.13.9
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 2
+                - 16
+            "4": 3.13.9
+            "5": 0.28.1
+            "12": 0.28.1
+            "13": darwin-arm64
+batch_size:
+    value: 64
+data_path:
+    value: data/raw/hotel_bookings.csv
+epochs:
+    value: 80
+hidden_size:
+    value: 64
+input_size:
+    value: 3
+learning_rate:
+    value: 0.0005
+model_save_path:
+    value: models/best_attention_lstm.pt
+num_layers:
+    value: 1
+project_name:
+    value: siteminder-demand-forecast
+seq_length:
+    value: 14
+train_split:
+    value: 0.8

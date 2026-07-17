@@ -1,0 +1,36 @@
+{
+  "os":  "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "python":  "CPython 3.13.9",
+  "startedAt":  "2026-07-17T08:29:49.486233Z",
+  "program":  "-m src.train",
+  "git":  {
+    "remote":  "https://github.com/Tanmay-Hadke/hotel-demand-forecaster.git",
+    "commit":  "b669318cb0e99e23f3e5aa7018644c6a843304da"
+  },
+  "email":  "tanmayhadke426@gmail.com",
+  "root":  "/Users/tanmay/Desktop/Projects/hotel-demand-forecaster/hotel-demand-forecaster",
+  "host":  "Tanmays-MacBook-Air.local",
+  "executable":  "/opt/anaconda3/bin/python",
+  "cpu_count":  10,
+  "cpu_count_logical":  10,
+  "disk":  {
+    "/":  {
+      "total":  "494332366848",
+      "used":  "165451014144"
+    }
+  },
+  "memory":  {
+    "total":  "17179869184"
+  },
+  "apple":  {
+    "name":  "Apple M5",
+    "ecpuCores":  6,
+    "pcpuCores":  4,
+    "gpuCores":  8,
+    "memoryGb":  16,
+    "swapTotalBytes":  "4294967296",
+    "ramTotalBytes":  "17179869184",
+    "macModel":  "Mac17,3"
+  },
+  "writerId":  "ux9yfjjm00q1vj46f9k5w5l4z1wpdajs"
+}

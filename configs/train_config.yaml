@@ -3,13 +3,13 @@ data_path: "data/raw/hotel_bookings.csv"
 model_save_path: "models/best_attention_lstm.pt"
 
 # Model Hyperparameters
-input_size: 3      # Changed from 1 to 3 (rooms, day_of_week, month)
-hidden_size: 128   # Increased capacity to map the new temporal relationships
+input_size: 6      # Changed from 1 to 3 (rooms, day_of_week, month)
+hidden_size: 64   # Increased capacity to map the new temporal relationships
 num_layers: 1
-seq_length: 30
+seq_length: 14
 
 # Training Hyperparameters
-batch_size: 32
-epochs: 75         # Increased epochs slightly for the larger hidden size
-learning_rate: 0.001
+batch_size: 64
+epochs: 80         # Increased epochs slightly for the larger hidden size
+learning_rate: 0.0005
 train_split: 0.8

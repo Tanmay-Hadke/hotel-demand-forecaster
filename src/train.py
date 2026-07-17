@@ -36,7 +36,7 @@ def main():
         num_layers=config['num_layers']
     ).to(device)
     
-    criterion = nn.HuberLoss(delta=1.0)
+    criterion = nn.HuberLoss(delta=0.5)
     optimizer = optim.Adam(model.parameters(), lr=config['learning_rate'])
     
     # Training Loop

@@ -1,0 +1,117 @@
+Loading data...
+Starting training on cpu...
+Epoch 1/80 | Loss: 0.2974
+--> Saved new best model with loss 0.2974
+Epoch 2/80 | Loss: 0.2912
+--> Saved new best model with loss 0.2912
+Epoch 3/80 | Loss: 0.2851
+--> Saved new best model with loss 0.2851
+Epoch 4/80 | Loss: 0.2751
+--> Saved new best model with loss 0.2751
+Epoch 5/80 | Loss: 0.2613
+--> Saved new best model with loss 0.2613
+Epoch 6/80 | Loss: 0.2551
+--> Saved new best model with loss 0.2551
+Epoch 7/80 | Loss: 0.2478
+--> Saved new best model with loss 0.2478
+Epoch 8/80 | Loss: 0.2455
+--> Saved new best model with loss 0.2455
+Epoch 9/80 | Loss: 0.2431
+--> Saved new best model with loss 0.2431
+Epoch 10/80 | Loss: 0.2423
+--> Saved new best model with loss 0.2423
+Epoch 11/80 | Loss: 0.2395
+--> Saved new best model with loss 0.2395
+Epoch 12/80 | Loss: 0.2378
+--> Saved new best model with loss 0.2378
+Epoch 13/80 | Loss: 0.2371
+--> Saved new best model with loss 0.2371
+Epoch 14/80 | Loss: 0.2358
+--> Saved new best model with loss 0.2358
+Epoch 15/80 | Loss: 0.2343
+--> Saved new best model with loss 0.2343
+Epoch 16/80 | Loss: 0.2354
+Epoch 17/80 | Loss: 0.2352
+Epoch 18/80 | Loss: 0.2339
+--> Saved new best model with loss 0.2339
+Epoch 19/80 | Loss: 0.2358
+Epoch 20/80 | Loss: 0.2355
+Epoch 21/80 | Loss: 0.2339
+Epoch 22/80 | Loss: 0.2345
+Epoch 23/80 | Loss: 0.2295
+--> Saved new best model with loss 0.2295
+Epoch 24/80 | Loss: 0.2329
+Epoch 25/80 | Loss: 0.2310
+Epoch 26/80 | Loss: 0.2315
+Epoch 27/80 | Loss: 0.2326
+Epoch 28/80 | Loss: 0.2319
+Epoch 29/80 | Loss: 0.2306
+Epoch 30/80 | Loss: 0.2284
+--> Saved new best model with loss 0.2284
+Epoch 31/80 | Loss: 0.2275
+--> Saved new best model with loss 0.2275
+Epoch 32/80 | Loss: 0.2278
+Epoch 33/80 | Loss: 0.2292
+Epoch 34/80 | Loss: 0.2304
+Epoch 35/80 | Loss: 0.2259
+--> Saved new best model with loss 0.2259
+Epoch 36/80 | Loss: 0.2234
+--> Saved new best model with loss 0.2234
+Epoch 37/80 | Loss: 0.2248
+Epoch 38/80 | Loss: 0.2240
+Epoch 39/80 | Loss: 0.2237
+Epoch 40/80 | Loss: 0.2253
+Epoch 41/80 | Loss: 0.2240
+Epoch 42/80 | Loss: 0.2218
+--> Saved new best model with loss 0.2218
+Epoch 43/80 | Loss: 0.2208
+--> Saved new best model with loss 0.2208
+Epoch 44/80 | Loss: 0.2243
+Epoch 45/80 | Loss: 0.2216
+Epoch 46/80 | Loss: 0.2205
+--> Saved new best model with loss 0.2205
+Epoch 47/80 | Loss: 0.2216
+Epoch 48/80 | Loss: 0.2229
+Epoch 49/80 | Loss: 0.2210
+Epoch 50/80 | Loss: 0.2202
+--> Saved new best model with loss 0.2202
+Epoch 51/80 | Loss: 0.2215
+Epoch 52/80 | Loss: 0.2208
+Epoch 53/80 | Loss: 0.2196
+--> Saved new best model with loss 0.2196
+Epoch 54/80 | Loss: 0.2188
+--> Saved new best model with loss 0.2188
+Epoch 55/80 | Loss: 0.2192
+Epoch 56/80 | Loss: 0.2191
+Epoch 57/80 | Loss: 0.2170
+--> Saved new best model with loss 0.2170
+Epoch 58/80 | Loss: 0.2196
+Epoch 59/80 | Loss: 0.2179
+Epoch 60/80 | Loss: 0.2182
+Epoch 61/80 | Loss: 0.2170
+--> Saved new best model with loss 0.2170
+Epoch 62/80 | Loss: 0.2201
+Epoch 63/80 | Loss: 0.2191
+Epoch 64/80 | Loss: 0.2176
+Epoch 65/80 | Loss: 0.2178
+Epoch 66/80 | Loss: 0.2160
+--> Saved new best model with loss 0.2160
+Epoch 67/80 | Loss: 0.2155
+--> Saved new best model with loss 0.2155
+Epoch 68/80 | Loss: 0.2150
+--> Saved new best model with loss 0.2150
+Epoch 69/80 | Loss: 0.2175
+Epoch 70/80 | Loss: 0.2156
+Epoch 71/80 | Loss: 0.2162
+Epoch 72/80 | Loss: 0.2177
+Epoch 73/80 | Loss: 0.2166
+Epoch 74/80 | Loss: 0.2143
+--> Saved new best model with loss 0.2143
+Epoch 75/80 | Loss: 0.2153
+Epoch 76/80 | Loss: 0.2146
+Epoch 77/80 | Loss: 0.2157
+Epoch 78/80 | Loss: 0.2130
+--> Saved new best model with loss 0.2130
+Epoch 79/80 | Loss: 0.2141
+Epoch 80/80 | Loss: 0.2118
+--> Saved new best model with loss 0.2118
